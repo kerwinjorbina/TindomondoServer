@@ -1,3 +1,6 @@
+/app/views/events/*.erb
+/spec/views/events/*.erb_spec.rb
+
 # Created by https://www.gitignore.io/api/ruby,rails,osx,windows,linux,bower,node,intellij,grunt
 
 ### Ruby ###
