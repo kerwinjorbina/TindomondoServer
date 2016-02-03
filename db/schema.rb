@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160203111032) do
+ActiveRecord::Schema.define(version: 20160203123046) do
 
   create_table "events", force: :cascade do |t|
     t.string   "location"
@@ -19,8 +19,10 @@ ActiveRecord::Schema.define(version: 20160203111032) do
     t.integer  "duration"
     t.integer  "user_id"
     t.integer  "sport_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.integer  "registration_limit"
+    t.integer  "registration_min"
   end
 
   add_index "events", ["sport_id"], name: "index_events_on_sport_id"
