@@ -1,0 +1,27 @@
+%p#notice= notice
+
+%p
+  %b Location:
+  = @event.location
+%p
+  %b Start time:
+  = @event.start_time
+%p
+  %b Duration:
+  = @event.duration
+%p
+  %b Registration min:
+  = @event.registration_min
+%p
+  %b Registration limit:
+  = @event.registration_limit
+%p
+  %b User:
+  = @event.user
+%p
+  %b Sport:
+  = @event.sport
+
+= link_to 'Edit', edit_event_path(@event)
+\|
+= link_to 'Back', events_path

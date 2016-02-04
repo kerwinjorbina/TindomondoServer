@@ -11,10 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160204150805) do
+ActiveRecord::Schema.define(version: 20160204155658) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "events", force: :cascade do |t|
+    t.string   "location"
+    t.datetime "start_time"
+    t.integer  "duration"
+    t.integer  "registration_min"
+    t.integer  "registration_limit"
+    t.integer  "user_id"
+    t.integer  "sport_id"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  add_index "events", ["sport_id"], name: "index_events_on_sport_id", using: :btree
+  add_index "events", ["user_id"], name: "index_events_on_user_id", using: :btree
+
+  create_table "registrations", force: :cascade do |t|
+    t.integer  "event_id"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "registrations", ["event_id"], name: "index_registrations_on_event_id", using: :btree
+  add_index "registrations", ["user_id"], name: "index_registrations_on_user_id", using: :btree
 
   create_table "sports", force: :cascade do |t|
     t.string   "name"
@@ -22,4 +47,15 @@ ActiveRecord::Schema.define(version: 20160204150805) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "fb_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "events", "sports"
+  add_foreign_key "events", "users"
+  add_foreign_key "registrations", "events"
+  add_foreign_key "registrations", "users"
 end

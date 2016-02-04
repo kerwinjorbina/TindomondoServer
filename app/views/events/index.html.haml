@@ -1,0 +1,33 @@
+%h1 Listing events
+
+%table
+  %thead
+    %tr
+      %th Location
+      %th Start time
+      %th Duration
+      %th Registration min
+      %th Registration limit
+      %th User
+      %th Sport
+      %th
+      %th
+      %th
+
+  %tbody
+    - @events.each do |event|
+      %tr
+        %td= event.location
+        %td= event.start_time
+        %td= event.duration
+        %td= event.registration_min
+        %td= event.registration_limit
+        %td= event.user
+        %td= event.sport
+        %td= link_to 'Show', event
+        %td= link_to 'Edit', edit_event_path(event)
+        %td= link_to 'Destroy', event, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Event', new_event_path
