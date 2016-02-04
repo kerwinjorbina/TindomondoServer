@@ -8,7 +8,7 @@
 
 sports = Sport.create([{ name: 'Football' }, { name: 'Basketball' }, { name: 'Running' }])
 
-users = User.create([{ first_name: 'Kerwin',  last_name: 'a'}, { first_name: 'Vova',  last_name: 'a'}, { first_name: 'Karli',  last_name: 'a'}])
+users = User.create([{ name: 'Kerwin'}, { name: 'Vova'}, { name: 'Karli'}])
 
 events = Event.create([{location: 'Ujula 4A, 51008 Tartu',  start_time: '2016-02-10 17:00:00', duration: 2, user_id: 1, sport_id: 1, registration_limit: 20, registration_min: 5},
 		{location: '51004, Küüni 7, 51004 Tartu',  start_time: '2016-02-10 17:00:00', duration: 2, user_id: 2, sport_id: 2, registration_limit: 20, registration_min: 5},
