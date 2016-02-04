@@ -32,9 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'omniauth-facebook'
 
-group :production do
-  gem 'pg'
-end
+
+gem 'pg'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -48,7 +47,6 @@ group :development, :test do
   gem 'byebug'
   gem "rspec-rails"
   gem "factory_girl_rails"
-  gem 'sqlite3'
 end
 
 group :test do
