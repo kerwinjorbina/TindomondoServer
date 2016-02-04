@@ -34,6 +34,7 @@ gem 'omniauth-facebook'
 
 
 gem 'pg'
+gem 'haml-rails'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
