@@ -2,88 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c80129-af78-4394-9b2b-7f626dea59af" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/OLD/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/OLD/Gemfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/OLD/Gemfile.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/OLD/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/OLD/README.rdoc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/OLD/Rakefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="$PROJECT_DIR$/OLD/vendor/assets/stylesheets/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/OLD/app/assets/javascripts/application.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/OLD/app/assets/stylesheets/application.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/OLD/app/controllers/application_controller.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="$PROJECT_DIR$/OLD/vendor/assets/javascripts/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/OLD/app/controllers/events_controller.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/OLD/app/controllers/sessions_controller.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/OLD/app/helpers/application_helper.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/helpers/events_helper.rb" afterPath="$PROJECT_DIR$/OLD/app/helpers/events_helper.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="$PROJECT_DIR$/OLD/lib/tasks/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/.keep" afterPath="$PROJECT_DIR$/OLD/lib/assets/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="$PROJECT_DIR$/OLD/app/models/concerns/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/event.rb" afterPath="$PROJECT_DIR$/OLD/app/models/event.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/registration.rb" afterPath="$PROJECT_DIR$/OLD/app/models/registration.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/sport.rb" afterPath="$PROJECT_DIR$/OLD/app/models/sport.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/OLD/app/models/user.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/OLD/app/views/layouts/application.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/bundle" afterPath="$PROJECT_DIR$/OLD/bin/bundle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/rails" afterPath="$PROJECT_DIR$/OLD/bin/rails" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/rake" afterPath="$PROJECT_DIR$/OLD/bin/rake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/setup" afterPath="$PROJECT_DIR$/OLD/bin/setup" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/spring" afterPath="$PROJECT_DIR$/OLD/bin/spring" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/OLD/config.ru" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/OLD/config/application.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/OLD/config/boot.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/cucumber.yml" afterPath="$PROJECT_DIR$/OLD/config/cucumber.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/OLD/config/database.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/OLD/config/environment.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/OLD/config/environments/development.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/OLD/config/environments/production.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/OLD/config/environments/test.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/assets.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/backtrace_silencers.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/cookies_serializer.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/filter_parameter_logging.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/inflections.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/mime_types.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/omniauth.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/omniauth.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/session_store.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/OLD/config/initializers/wrap_parameters.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/OLD/config/locales/en.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/OLD/config/routes.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="$PROJECT_DIR$/OLD/config/secrets.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/migrate/20160203110000_create_sports.rb" afterPath="$PROJECT_DIR$/OLD/db/migrate/20160203110000_create_sports.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/migrate/20160203110001_create_users.rb" afterPath="$PROJECT_DIR$/OLD/db/migrate/20160203110001_create_users.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/migrate/20160203110708_create_events.rb" afterPath="$PROJECT_DIR$/OLD/db/migrate/20160203110708_create_events.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/migrate/20160203111032_create_registrations.rb" afterPath="$PROJECT_DIR$/OLD/db/migrate/20160203111032_create_registrations.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/OLD/db/schema.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/OLD/db/seeds.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/.gitkeep" afterPath="$PROJECT_DIR$/OLD/features/step_definitions/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/OLD/features/support/env.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="$PROJECT_DIR$/OLD/app/models/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="$PROJECT_DIR$/OLD/app/mailers/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/tasks/cucumber.rake" afterPath="$PROJECT_DIR$/OLD/lib/tasks/cucumber.rake" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/OLD/public/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/OLD/public/422.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/OLD/public/500.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/OLD/public/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/OLD/public/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/script/cucumber" afterPath="$PROJECT_DIR$/OLD/script/cucumber" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/controllers/events_controller_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/controllers/events_controller_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/events.rb" afterPath="$PROJECT_DIR$/OLD/spec/factories/events.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/registrations.rb" afterPath="$PROJECT_DIR$/OLD/spec/factories/registrations.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/sports.rb" afterPath="$PROJECT_DIR$/OLD/spec/factories/sports.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/users.rb" afterPath="$PROJECT_DIR$/OLD/spec/factories/users.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/helpers/events_helper_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/helpers/events_helper_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/event_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/models/event_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/registration_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/models/registration_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/sport_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/models/sport_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/models/user_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/OLD/spec/rails_helper.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/requests/events_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/requests/events_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/routing/events_routing_spec.rb" afterPath="$PROJECT_DIR$/OLD/spec/routing/events_routing_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/OLD/spec/spec_helper.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" afterPath="$PROJECT_DIR$/OLD/app/controllers/concerns/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" afterPath="$PROJECT_DIR$/OLD/app/assets/images/.keep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
     <ignored path="TindomondoServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,11 +35,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.6833773">
+                  <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -134,10 +55,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/secrets.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.5137615">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding />
                 </state>
@@ -151,7 +72,7 @@
           <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OLD/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.7706422">
+                <state vertical-scroll-proportion="1.0184697">
                   <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
                   <folding />
                 </state>
@@ -172,8 +93,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20160203110708_create_events.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -477,10 +398,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="799" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6462197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41654778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -634,17 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OLD/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7706422">
+        <state vertical-scroll-proportion="1.0184697">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding />
         </state>
@@ -660,8 +573,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5137615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6833773">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>
