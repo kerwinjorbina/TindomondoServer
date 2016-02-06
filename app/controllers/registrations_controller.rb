@@ -24,6 +24,13 @@ class RegistrationsController < ApplicationController
     render :text => @registrations.to_json, status: :ok
   end
 
+  # POST /registrations/unjoin
+  def unjoin
+    @registration = Registration.where(event_id: params[:event_id], user_id: params[:user_id]).take
+    @registration.destroy
+    render :text => @registration.to_json, status: :ok
+  end
+
   # GET /registrations/new
   def new
     @registration = Registration.new

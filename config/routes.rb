@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   match '*all' => 'application#cors_preflight', via: :options
   get "/users/fbid/:id", :to => "users#user_by_fb_id"
   get "/registrations/userevents", :to => "registrations#get_user_events"
+  post "/registrations/unjoin", :to => "registrations#unjoin"
   get "/registrations/byuserevent", :to => "registrations#registration_by_user_event_id"
   resources :registrations
   resources :events
