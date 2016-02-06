@@ -5,6 +5,7 @@ class EventsController < ApplicationController
   # GET /events.json
   def index
     @events = Event.all
+    # time_now = Time.now.strftime("%d/%m/%Y %H:%M:%S")
   end
 
   # GET /events/1
@@ -28,6 +29,9 @@ class EventsController < ApplicationController
 
     respond_to do |format|
       if @event.save
+        @registration = Registration.new(:user_id=> @event.user_id, :event_id=> @event.id)
+        @registration.save
+
         format.html { redirect_to @event, notice: 'Event was successfully created.' }
         format.json { render :show, status: :created, location: @event }
       else
