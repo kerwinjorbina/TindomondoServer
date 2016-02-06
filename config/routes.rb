@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "/registrations/userevents", :to => "registrations#get_user_events"
   post "/registrations/unjoin", :to => "registrations#unjoin"
   get "/registrations/usereventid", :to => "registrations#registration_by_user_event_id"
+  get "/registrations/eventparticipants", :to => "registrations#get_event_participants"
   resources :registrations
   resources :events
   resources :users

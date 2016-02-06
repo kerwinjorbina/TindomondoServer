@@ -31,6 +31,10 @@ class RegistrationsController < ApplicationController
     render :text => @registration.to_json, status: :ok
   end
 
+  def get_event_participants
+    render :text => {:count => Registration.where(event_id: params[:event_id]).length}.to_json, status: :ok
+  end
+
   # GET /registrations/new
   def new
     @registration = Registration.new
