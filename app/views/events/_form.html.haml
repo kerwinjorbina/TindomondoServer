@@ -23,7 +23,7 @@
     = f.number_field :registration_limit
   .field
     = f.label :user
-    = f.collection_select :user, :user_id, User.all, :id, :name
+    = f.collection_select :user_id, User.all, :id, :name
   .field
     = f.label :sport
     = f.text_field :sport
