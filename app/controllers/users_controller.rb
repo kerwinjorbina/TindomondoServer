@@ -12,6 +12,12 @@ class UsersController < ApplicationController
   def show
   end
 
+  # GET /users/fb_id/:id
+  def user_by_fb_id
+    @user = User.where(fb_id: params[:id]).take
+    render :text => {user: @user.to_json}, status: :ok
+  end
+
   # GET /users/new
   def new
     @user = User.new

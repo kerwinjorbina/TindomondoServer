@@ -58,4 +58,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get "/users/fbid/:id", :to => "users#user_by_fb_id"
 end
