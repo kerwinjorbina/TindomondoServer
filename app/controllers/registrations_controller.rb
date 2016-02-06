@@ -12,6 +12,18 @@ class RegistrationsController < ApplicationController
   def show
   end
 
+  # GET /registrations/usereventid
+  def registration_by_user_event_id
+    @registration = Registration.where(event_id: params[:event_id], user_id: params[:user_id]).take
+    render :text => @registration.to_json, status: :ok
+  end
+
+  # GET /registrations/userevents
+  def get_user_events
+    @registrations = Registration.where(user_id: params[:user_id])
+    render :text => @registrations.to_json, status: :ok
+  end
+
   # GET /registrations/new
   def new
     @registration = Registration.new

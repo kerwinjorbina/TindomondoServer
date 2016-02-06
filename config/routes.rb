@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   match '*all' => 'application#cors_preflight', via: :options
+  get "/users/fbid/:id", :to => "users#user_by_fb_id"
+  get "/registrations/userevents", :to => "registrations#get_user_events"
   resources :registrations
   resources :events
   resources :users
@@ -58,5 +60,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  get "/users/fbid/:id", :to => "users#user_by_fb_id"
 end
