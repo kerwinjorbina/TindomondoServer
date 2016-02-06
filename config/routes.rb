@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   post "/registrations/unjoin", :to => "registrations#unjoin"
   get "/registrations/usereventid", :to => "registrations#registration_by_user_event_id"
   get "/registrations/eventparticipants", :to => "registrations#get_event_participants"
+  get "/registrations/eventparticipantslist", :to => "registrations#get_event_participants_list"
   resources :registrations
   resources :events
   resources :users
