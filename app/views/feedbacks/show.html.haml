@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b DateTime:
+  = @feedback.date_time
+%p
+  %b User_id:
+  = @feedback.user_id
+%p
+  %b Description:
+  = @feedback.feedback_description
+
+= link_to 'Edit', edit_feedback_path(@feedback)
+\|
+= link_to 'Back', feedbacks_path
