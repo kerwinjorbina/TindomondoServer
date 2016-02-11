@@ -4,7 +4,7 @@ class FeedbacksController < ApplicationController
   # GET /feedbacks
   # GET /feedbacks.json
   def index
-    #@feedbacks = Feedback.where("start_time >= :start_time", {start_time: DateTime.now}).order(start_time: :asc)
+    @feedbacks = Feedback.all
   end
 
   # GET /feedbacks/1
@@ -28,9 +28,6 @@ class FeedbacksController < ApplicationController
 
     respond_to do |format|
       if @feedback.save
-        #@registration = Registration.new(:user_id=> @event.user_id, :event_id=> @event.id)
-        #@registration.save
-
         format.html { redirect_to @feedback, notice: 'Feedback was successfully sent.' }
         format.json { render :show, status: :created, location: @feedback }
       else
